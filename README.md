@@ -7,13 +7,13 @@ Almost like Evan You ([methodology](https://github.com/yyx990803/vite-vs-next-tu
 
 ## Test suites
 
-1. 100 ~ 10000 components first load render and HMR.  
-A. component with depth 1.  
-B. component with depth 10.
-2. 100 ~ 10000 components HMR with dynamic additions and deletions.  
-A. component with depth 1.  
-B. component with depth 10.
+0. 100 ~ 10000 components first load render and HMR.  
 
+```
+// more are wiping
+1. 100 ~ 10000 components first load render and HMR.
+2. 100 ~ 10000 components HMR with dynamic additions and deletions.
+```
 details please see the file in folder `scripts`
 
 ## Environment
@@ -26,7 +26,17 @@ details please see the file in folder `scripts`
 ## Try now
 
 + At root dir `pnpm install`.
-+ Follow the `comments` at the top of the script file.
+
+```bash
+> node scripts/cli.js --help
+> pnpm vt -c 1000 # test vite 1000 components
+> pnpm nt -c 1000 # test nextjs 1000 components
+> pnpm vt -r # restore vite (remove components and restore App.jsx)
+> pnpm nt -r # restore nextjs (same)
+```
+## NOTE
+
+When testing first reload, the service worker of **nextjs** should be unregistered from `edge://serviceworker-internals/` (or chrome whatever), to keep page as status **ERR_CONNECTION_REFUSED**
 
 ## Results
 
