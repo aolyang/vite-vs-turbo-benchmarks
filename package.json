@@ -1,0 +1,13 @@
+{
+  "name": "vite-vs-turbo-benchmarks",
+  "version": "1.0.0",
+  "repository": "git@github.com:aolyang/vite-vs-turbo-benchmarks.git",
+  "author": "aolyang <aolyang@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@next/react-refresh-utils": "^13.0.1",
+    "@types/node": "^18.11.8",
+    "cac": "^6.7.14",
+    "react-refresh": "^0.14.0"
+  }
+}
