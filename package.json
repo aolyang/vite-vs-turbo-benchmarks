@@ -8,6 +8,7 @@
     "@next/react-refresh-utils": "^13.0.1",
     "@types/node": "^18.11.8",
     "cac": "^6.7.14",
-    "react-refresh": "^0.14.0"
+    "react-refresh": "^0.14.0",
+    "vite-plugin-swc-react-refresh": "^2.2.0"
   }
 }
