@@ -4,6 +4,10 @@
   "repository": "git@github.com:aolyang/vite-vs-turbo-benchmarks.git",
   "author": "aolyang <aolyang@foxmail.com>",
   "license": "MIT",
+  "scripts": {
+    "vt": "node scripts/cli.js vite",
+    "nt": "node scripts/cli.js nextjs"
+  },
   "dependencies": {
     "@next/react-refresh-utils": "^13.0.1",
     "@types/node": "^18.11.8",
