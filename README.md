@@ -34,9 +34,21 @@ details please see the file in folder `scripts`
 > pnpm vt -r # restore vite (remove components and restore App.jsx)
 > pnpm nt -r # restore nextjs (same)
 ```
+**steps**
+
+1. confirm dev server not running.
+2. clear cache.
+3. start dev server.
+4. gen components.
+5. refresh devtools Performance board and waiting.
+6. record some data.
+
 ## NOTE
 
 When testing first reload, the service worker of **nextjs** should be unregistered from `edge://serviceworker-internals/` (or chrome whatever), to keep page as status **ERR_CONNECTION_REFUSED**
 
 ## Results
 
+see [assets benchmark.txt](./assets/benchmark.txt)
+
+![chart](./assets/FP%20total.png)

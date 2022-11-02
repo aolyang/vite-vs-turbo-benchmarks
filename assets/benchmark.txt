@@ -1,0 +1,87 @@
+T(total), DCL(DOMContentLoaded Event), FP(First Paint), FCP(First Contentful Paint), LCP(Largest Contentful Paint) L(Onload Event)
+
+vite
+100:
+T:      5280 
+DCL:  2845.3
+FP:    2951.6 FCP:  2951.6 LCP:  2951.6
+L:      2949.0
+
+15 ms  Loading
+157 ms  Scripting
+19 ms  Rendering
+3 ms  Painting
+200 ms  System
+4886 ms  Idle
+5280 ms  Total
+
+1000:
+T:      29026
+DCL:  23764.9
+FP:    23945.1 FCP:  23945.1 LCP:  23945.1
+L:      24005.6
+
+16 ms  Loading
+398 ms  Scripting
+34 ms  Rendering
+4 ms  Painting
+1155 ms  System
+27420 ms  Idle
+29026 ms  Total
+
+10000: 
+T:     167295 
+DCL: 159835.8 
+FP:    161516.3 FCP:  161516.3 LCP:  161516.3
+L:      162142.6
+
+16 ms  Loading
+3092 ms  Scripting
+254 ms  Rendering
+6 ms  Painting
+10110 ms  System
+153816 ms  Idle
+167295 ms  Total
+
+nextjs
+100:
+T:      6477
+DCL:  1314.7
+FP:    1535.5 FCP:  1535.5 LCP:  1535.5 
+L:      1464.6
+
+21 ms  Loading
+356 ms  Scripting
+23 ms  Rendering
+3 ms  Painting
+251 ms  System
+5823 ms  Idle
+6477 ms  Total
+
+1000:
+T:      10858
+DCL:  5706.1
+FP:    5871.3 FCP:  5871.3 LCP:  5871.3 
+L:      5819.1
+
+22 ms  Loading
+626 ms  Scripting
+34 ms  Rendering
+4 ms  Painting
+336 ms  System
+9836 ms  Idle
+10858 ms  Total
+
+10000:
+T:      44924
+DCL:  38881.6
+FP:    39726.6 FCP:  39726.6 LCP:  39726.6
+L:      39401.9
+
+29 ms  Loading
+4998 ms  Scripting
+292 ms  Rendering
+14 ms  Painting
+1481 ms  System
+38110 ms  Idle
+44924 ms  Total
